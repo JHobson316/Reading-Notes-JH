@@ -46,6 +46,7 @@
 //    }
 //}
 // START HERE This function acts as an introduction once the user presses the button
+let points = 0;
 function GameIntro(){
     alert("Hello! It seems like you want to play a game.");
     //This prompt asks the user to input their name
@@ -60,6 +61,8 @@ function q1(){
     let Answer1L = Answer1.toLowerCase();
     if (Answer1L == "y"){
         console.log("correct");
+        let points = points++;
+        alert(points); 
         q2();
     }
     else if (Answer1L == "n"){
