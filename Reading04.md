@@ -55,7 +55,8 @@
 5. **How do we write arrays in Javascript**
     - const Test = [i1, i2, i3, i4]
 6. *BONUS* **What are 2 examples of a Javascript Method?**
-    - The JavScript String Method to determine length
-    - 
+    - The JavScript String Method to determine length:"variable.length;"
+    - The javascript array method is a way to give a variable multiple values: array=[i1,i2,i3,i4,i5]
 
 7. ## Any thoughts / comments you would like to add?
+-The class is really helping me learn more details to coding that I didn't know about before. Hyped to learn even more!
