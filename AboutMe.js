@@ -1,52 +1,5 @@
 "use strict"
-// Imma be honest, I need some way to relax so I'm making it video game questions.
-//function GuessingGame(){
-//    alert("Hello! It seems like you want to play a game.");
-//    let User = prompt("First off, what's your name?");
-//    alert("Alright, " + User + "! All you have to do to answer these questions is type 'y' if you think the statement is true or type 'n' if you thin that it's false. Let's get to the questions!");
-//    let Answer1 = prompt("Nintendo's flagship character, Mario, was initially named Jumpman.");
-//    let Answer1L = Answer1.toLowerCase(string);
-//    if (Answer1L == "y"){
-//        console.log("correct");
-//    }
-//    else if (Answer1L == "n"){
-//        console.log("incorrect");
-//    }
-//    let Answer2 = prompt("Sony bought Bungie Studios in 2022 for $4.8 Billion.");
-//    let Answer2L = Answer1.toLowerCase(string);
-//   if (Answer2L == "y"){
-//        console.log("incorrect");
-//    }
-//   else if (Answer2L == "n"){
-//        console.log("correct");
-//    }
-//    let Answer3 = prompt("Call of Duty: Modern Warfare 2 featured a controversial mission named 'No German.'");
-//   let Answer3L = Answer1.toLowerCase(string);
-//    if (Answer3L == "y"){
-//        console.log("incorrect");
-//    }
-//   else if (Answer3L == "n"){
-//        console.log("correct");
-//    }
-//    let Answer4 = prompt("In Bungie's Game, Destiny 2, a gun named 'Telesto' is known by the community for repeatedly breaking the game.");
-//    let Answer4L = Answer1.toLowerCase(string);
-//    if (Answer4L == "y"){
-//        console.log("correct");
-//    }
-//    else if (Answer4L == "n"){
-//        console.log("incorrect");
-//    }
-//    let Answer5 = prompt("I'm glad that I'm done with this.");
-//    let Answer5L = Answer1.toLowerCase(string);
-//    if (Answer5L == "y"){
-//        console.log("correct");
-//    }
-//    else if (Answer5L == "n"){
-//      console.log("incorrect");
-//    }
-//}
-// START HERE This function acts as an introduction once the user presses the button
-let points = 0;
+var points = 0;
 function GameIntro(){
     alert("Hello! It seems like you want to play a game.");
     //This prompt asks the user to input their name
@@ -61,8 +14,8 @@ function q1(){
     let Answer1L = Answer1.toLowerCase();
     if (Answer1L == "y"){
         console.log("correct");
-        let points = points++;
-        alert(points); 
+        alert("That's correct! Mario's full name is 'Mario Jumpman Mario.");
+        points++; 
         q2();
     }
     else if (Answer1L == "n"){
