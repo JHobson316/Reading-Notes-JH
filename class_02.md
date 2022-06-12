@@ -43,7 +43,7 @@
   - We use markdown because it is very versatile with working with coding services and programs by placing things in plain text
 
 - How do you make a link in Markdown?
-    -
+    -You use brackets and then use a source or path to whatever file or page you want
 
 - List 2 ways to make text **bold** in Markdown
   - You can use **two asterisks** on either side of the text.
