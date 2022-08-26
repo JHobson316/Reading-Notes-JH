@@ -42,3 +42,7 @@
 ## What status code does a successful DELETE request return?
 
 - Status code 204
+
+## Things I Want to Know More About
+
+- I honestly don't know. There's so many topics and extra information that I feel likeI'm still in the phase of needing to know before I start wanting to know.
